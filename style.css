@@ -1,0 +1,54 @@
+body{
+    background-color: crimson;
+    text-align: center;
+}
+
+#Player1_Login, #Player2_Login{
+    background-color: white;
+    border-radius: 20px;
+    height: 200px;
+    margin: 50px;
+    width: 900px;
+    text-align: center;
+    color: black;
+    
+}
+
+h1{
+    color: white;
+}
+
+#LogInB{
+    width: 500px;
+}
+
+.line{
+    height: 10px;
+    width: 230px;
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#Output
+{
+background: white;
+border-radius: 10px;
+border-top: 10px solid #AA4465;
+padding: 10px;
+float: none;
+text-align: left;
+}
+#P1_Name,#P2_Name
+{
+	display: inline-block;
+    margin-left: 20px;
+}
+#Word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
