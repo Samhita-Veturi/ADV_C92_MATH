@@ -1,5 +1,4 @@
 body{
-    background-color: crimson;
     text-align: center;
 }
 
@@ -7,11 +6,12 @@ body{
     background-color: white;
     border-radius: 20px;
     height: 200px;
-    margin: 50px;
-    width: 900px;
+    width: 500px;
     text-align: center;
     color: black;
-    
+    float: left;
+    border-style: dashed;
+    margin-left: 20px;
 }
 
 h1{
@@ -19,15 +19,15 @@ h1{
 }
 
 #LogInB{
-    width: 500px;
+    width: 490px;
+    float: left;
+    margin-left: 20px;
 }
 
 .line{
     height: 10px;
     width: 230px;
     background-color: black;
-    text-align: center;
-    margin-top: 10px;
 }
 
 #Output
@@ -51,4 +51,26 @@ text-align: left;
 #word_display
 {
 	letter-spacing: 5px;
+}
+#Player1_Login{
+    margin-top: 50px;
+}
+.Body_B{
+    background-image: url("Background_1.jpg");
+    float: right;
+    width: 900px;
+    border-right: indigo;
+    border-right-width: 20px;
+}
+#Background{
+    background-color: white;
+    float: right;
+    color: black;
+    height: 1000px;
+    width: 600px;
+    padding-left: 30px;
+    padding-top: -30px;
+}
+.B_B{
+    background-color: crimson;
 }
